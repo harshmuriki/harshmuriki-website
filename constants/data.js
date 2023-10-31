@@ -61,7 +61,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Engineer Intern; Testing Experience",
+      title: "Software Engineer Intern",
       company: "Appian",
       year: "2023",
       companyLink: "https://appian.com",
@@ -80,6 +80,13 @@ const userData = {
       year: "2022-2023",
       companyLink: "https://mealpirates.app/",
       desc: "Developed a service which delivers resturant quality food at resturant prices.",
+    },
+    {
+      title: "Software Developer Intern",
+      company: "Campus Talk",
+      year: "2020-2021",
+      companyLink: "",  //Own website
+      desc: "Managed QA for iOS and Android apps, conducted competitive analysis, and oversaw the development and launch of new connectivity features.",
     },
   ],
   resumeUrl:
