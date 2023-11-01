@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "axios": "^0.21.1",
     "caniuse-lite": "^1.0.30001559",
     "font-awesome": "^4.7.0",
