@@ -53,11 +53,9 @@ export default function FavouriteProjects() {
               </h1>
             </div>
           </a>
-
           {/* Single card */}
           <div>
             <div className="h-2"></div>
-
             <a
               href="https://spotifyyoutube.vercel.app/"
               className="w-full block col-span-3  sm:col-span-1 shadow-2xl"
