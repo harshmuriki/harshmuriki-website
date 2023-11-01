@@ -40,7 +40,7 @@ const userData = {
     {
       title: "MealPirates",
       link: "https://mealpirates.app/",
-      imgUrl: "/mealpirates.png",
+      imgUrl: "/mealpirates.jpeg",
     },
     {
       title: "Computer Vision - Finding center of phone",
