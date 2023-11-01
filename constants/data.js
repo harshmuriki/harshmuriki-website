@@ -10,42 +10,42 @@ const userData = {
     {
       title: "ResumeGPT",
       link: "https://github.com/harshmuriki",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "/resumeGPT.jpeg",
     },
     {
       title: "SpotifyYoutube",
       link: "https://spotifyyoutube.vercel.app/",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "/SpotifyYoutube.jpeg",
     },
     {
       title: "appie-AI-Chatbot",
       link: "https://github.com/harshmuriki/appie-AI-ChatBot",
-      imgUrl: "/portfolio.png",
+      imgUrl: "/chatbot.jpeg",
     },
     {
       title: "Image2Plate",
       link: "https://image2plate.streamlit.app/",
-      imgUrl: "/covidrescue.png",
+      imgUrl: "/image2plate.jpeg",
     },
     {
       title: "Personal Portfolio",
       link: "https://harshmuriki-website.vercel.app/",
-      imgUrl: "/algochurn.png",
+      imgUrl: "/portfolio.png",
     },
     {
       title: "GPT-4 Based Memory Game",
       link: "https://github.com/harshmuriki/GPT-4-Based-Memory-Game",
-      imgUrl: "/playground.png",
+      imgUrl: "/memorygame.jpeg",
     },
     {
       title: "MealPirates",
       link: "https://mealpirates.app/",
-      imgUrl: "/feedmeback.png",
+      imgUrl: "/mealpirates.png",
     },
     {
       title: "Computer Vision - Finding center of phone",
       link: "https://github.com/harshmuriki/Find_Center_Phone_CV",
-      imgUrl: "/devmedium.png",
+      imgUrl: "/phonecenter.jpeg",
     },
   ],
   about: {

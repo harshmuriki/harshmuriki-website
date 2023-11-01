@@ -7,8 +7,12 @@ import userData from "@constants/data";
 export default function Navbar() {
   const router = useRouter();
   console.log(router.asPath);
-  const { theme, setTheme } = useTheme('dark');
+  const { theme, setTheme } = useTheme("dark");
   const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setTheme('dark');
+  }, []);
 
   useEffect(() => {
     setMounted(true);
@@ -128,7 +132,7 @@ export default function Navbar() {
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
-          <a href={userData.socialLinks.instagram} x>
+          <a href={userData.socialLinks.instagram} target="_blank" rel="noopener noreferrer" x>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -141,7 +145,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href={userData.socialLinks.twitter}
+            href={userData.socialLinks.twitter} target="_blank" rel="noopener noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -156,7 +160,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href={userData.socialLinks.linkedin}
+            href={userData.socialLinks.linkedin} target="_blank" rel="noopener noreferrer"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
