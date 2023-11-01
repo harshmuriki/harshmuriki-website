@@ -50,11 +50,11 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a current senior at Georgia Tech majoring in Computer Science. I like to build products in the fields of AI, ML, Computer Vision and Robotics.",
+      "I'm a current senior at Georgia Tech majoring in Computer Science. I like to build software products in the fields of AI, ML, Computer Vision and Robotics.",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I started coding directly with C++ in 6th Grade (which wasn't a great idea ;) ). Since then I have learnt (self-taught or courses or Chat-GPT-ing) languages like Python, JavaScript, React, Node.js, C++, C, Assembly (I go all the way).`,
+      `I have got into this field when I wanted to break open my RC car that was given to me on my birthday just to see what was inside of it. Ever since then, I have been building and breaking (both physical and code) things.`,
+      `I have since built projects like an AI chatbot, a GPT-4 based memory game, a GPT-3 based resume generator, a Spotify-Youtube music player, a startup to deliver restaurant quality food at restaurant prices, an AI/CV website to convert images to recipes, a computer vision project to find the center of a phone, and a website to showcase all my projects.`
     ],
     currentProject: "ResumeGPT",
     currentProjectUrl: "https://github.com/harshmuriki",
@@ -90,7 +90,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1PEa-QPHOCYF_iRCIZTxR7yxmnOxR-bGv/view?usp=sharing",
+    "https://drive.google.com/file/d/1jtAltpeey_kKf85OaCortyNs1Qu6VzQp/view?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/harshmuriki24/",
     twitter: "https://twitter.com/Harshmuriki24",
