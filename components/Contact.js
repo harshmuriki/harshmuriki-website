@@ -12,6 +12,7 @@ export default function Contact() {
     emailjs.sendForm('service_e64wxvp', 'template_um6yf0j', form.current, 'P9PYlztVR9ZWFbBn6')
       .then((result) => {
         console.log(result.text);
+        alert('Message sent successfully!');
       }, (error) => {
         console.log(error.text);
       });
