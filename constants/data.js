@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "harshmuriki",
   name: "Harsh Muriki",
   designation: "Student",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/harshpic.jpg",
   email: "harshsuhith@gmail.com",
   // phone: "+1 000 000 0000",
   address: "Atlanta, Georgia, USA.",
@@ -97,6 +97,7 @@ const userData = {
     linkedin: "https://www.linkedin.com/in/venkata-harsh-muriki/",
     github: "https://github.com/harshmuriki",
     peerlist: "https://peerlist.io/harshmuriki",
+    playbook: "https://www.playbook.com/s/blurredreality/QN1CshVfAwyQfCiMg1CyfMju"
   },
 };
 
