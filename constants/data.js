@@ -8,6 +8,11 @@ const userData = {
   address: "Atlanta, Georgia, USA.",
   projects: [
     {
+      title: "EvoCal",
+      link: "https://evocal.vercel.app/",
+      imgUrl: "/evocal.jpeg",
+    },
+    {
       title: "ResumeGPT",
       link: "https://github.com/harshmuriki",
       imgUrl: "/resumeGPT.jpeg",
