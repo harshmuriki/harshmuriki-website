@@ -70,14 +70,20 @@ const userData = {
       company: "Appian",
       year: "2023",
       companyLink: "https://appian.com",
-      desc: "Developed robust API request mocking product leveraging Kubernetes for enhanced resource efficiency and scalability",
+      desc: "Developed robust API request mocking product leveraging Kubernetes for enhanced resource efficiency and scalability.",
+      longDesc: ["Developed robust API request mocking product leveraging Kubernetes for enhanced resource efficiency and scalability",
+        "Created Kubernetes Custom Resource Definition (CRD) and Python controller tailored to Appian`s testing requirements",
+        "Programmed software tool that optimizes file dependency visualization across multiple Git repositories using .toml files"],
+      links: {"google": "https://google.com", "fb": "https://facebook.com", "linkedin": "https://linkedin.com",},
     },
     {
       title: "Undergraduate Student Researcher",
       company: "Georgia Institute 0f Technology",
       year: "2021-2023",
-      companyLink: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161045",  //Make a new/small website for research
+      companyLink: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161045",
       desc: "Designed and constructed an autonomous robotic system that captures multiple 2D plant images, transforming them into 3D reconstructions for comprehensive volumetric analysis.",
+      longDesc: [],
+      links: {},
     },
     {
       title: "Co-Founder",
@@ -85,6 +91,8 @@ const userData = {
       year: "2022-2023",
       companyLink: "https://mealpirates.app/",
       desc: "Developed a service which delivers resturant quality food at resturant prices.",
+      longDesc: [],
+      links: {},
     },
     {
       title: "Software Developer Intern",
@@ -92,6 +100,8 @@ const userData = {
       year: "2020-2021",
       companyLink: "",  //Own website
       desc: "Managed QA for iOS and Android apps, conducted competitive analysis, and oversaw the development and launch of new connectivity features.",
+      longDesc: [],
+      links: {},
     },
   ],
   resumeUrl:
