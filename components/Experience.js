@@ -1,5 +1,6 @@
 import userData from "@constants/data";
-import React from "react";
+import { React, useState } from "react";
+import Modal from 'react-modal';
 
 export default function Experience() {
   return (
@@ -38,17 +39,67 @@ export default function Experience() {
   );
 }
 
+// const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
+//   return (
+//     <a href={companyLink} target="_blank" rel="noopener noreferrer" className="block relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 z-10 mx-4">
+//       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
+//         {year}
+//       </h1>
+//       <h1 className="font-semibold text-xl">{title}</h1>
+//       <p className="text-gray-500">
+//         {company}
+//       </p>
+//       <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+//     </a>
+//   );
+// };
+
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+    <div onClick={openModal} className="block relative experience-card border p-4 rounded-md shadow-xl bg-grey-500 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 mx-4">
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
       </h1>
       <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="text-gray-500">
+      <p className="text-gray-500">
         {company}
-      </a>
+      </p>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        shouldCloseOnOverlayClick={true}
+        contentLabel="Experience Details"
+        style={{
+          content: {
+            background: '#505f77',
+            width: '50%',
+            height: '60%',
+            margin: 'auto',
+          },
+          overlay: {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: '50',
+          }
+        }}
+      >
+        <h2>{title}</h2>
+        <p>{desc}</p>
+        <button onClick={closeModal}>Close</button>
+      </Modal>
     </div>
   );
 };
