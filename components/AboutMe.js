@@ -50,7 +50,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm currently looking for a full-time job. If you see me as a good fit,
+                I'm currently looking for an internship or co-op for Summer 2024 and Fall 2024. If you see me as a good fit,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}

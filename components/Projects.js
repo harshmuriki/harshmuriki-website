@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import Link from 'next/link';
 
 export default function Projects() {
   return (
@@ -18,6 +19,7 @@ export default function Projects() {
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
+              siteLink={proj.siteLink}
             />
           ))}
         </div>
@@ -26,9 +28,9 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number, siteLink }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <Link href={`projects/${siteLink}`} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
@@ -44,6 +46,6 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>
-    </a>
+    </Link>
   );
 };

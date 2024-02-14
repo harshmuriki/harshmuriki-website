@@ -1,5 +1,6 @@
 import userData from "@constants/data";
 import React from "react";
+import Link from "next/link";
 
 export default function Experience() {
   return (
@@ -21,6 +22,7 @@ export default function Experience() {
                 year={exp.year}
                 company={exp.company}
                 companyLink={exp.companyLink}
+                siteLink={exp.siteLink}
               />
               {idx === userData.experience.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
@@ -38,8 +40,9 @@ export default function Experience() {
   );
 }
 
-const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
+const ExperienceCard = ({ title, desc, year, company, companyLink, siteLink }) => {
   return (
+    // <Link href={`experience/${siteLink}`} className="w-full block shadow-2xl">
     <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
@@ -50,5 +53,6 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
       </a>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
     </div>
+    // </Link>
   );
 };
