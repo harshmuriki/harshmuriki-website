@@ -9,7 +9,6 @@ const ExperiencePage = () => {
         return <div>Loading...</div>;
     }
     const experienceData = userData['experience'].find(project => project.siteLink.toLowerCase() === experience.toLowerCase());
-    console.log(experienceData);
     return (
         <div>
             {experienceData.title}
