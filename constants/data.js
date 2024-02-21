@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "harshmuriki",
   name: "Harsh Muriki",
   designation: "Student",
-  avatarUrl: "/harshpic.jpg",
+  avatarUrl: "/avatar.png",
   email: "harshsuhith@gmail.com",
   // phone: "+1 000 000 0000",
   address: "Atlanta, Georgia, USA.",
