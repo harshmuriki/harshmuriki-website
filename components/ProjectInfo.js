@@ -2,10 +2,9 @@ import React from "react";
 import ContainerBlock from "@components/ContainerBlock";
 
 function ProjectInfo({ project }) {
-    // console.log("here", project);
     return (
         <ContainerBlock title="Projects - Harsh Muriki">
-            <section className="bg-white dark:bg-gray-800">
+            <section className="bg-white dark:bg-gray-800 -mb-20">
                 <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
                     <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
                         {project.title}
@@ -32,8 +31,6 @@ function ProjectInfo({ project }) {
                                     Visit Project
                                 </a>
                             </div>
-
-
                         </div>
                         <div className="relative overflow-hidden">
                             <div className="h-72 object-cover">
