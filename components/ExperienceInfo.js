@@ -19,7 +19,7 @@ function ExperienceInfo({ project }) {
                                 Role: {project.title}
                             </h2>
                             {project.detail_desc && project.detail_desc.length > 0 && (
-                                <ul className="text-gray-600 dark:text-gray-400 text-2xl list-disc ml-6">
+                                <ul className="text-gray-600 dark:text-gray-400 text-mg list-disc ml-6">
                                     {project.detail_desc.map((bullet, index) => (
                                         <li key={index}>{bullet}</li>
                                     ))}
@@ -39,13 +39,31 @@ function ExperienceInfo({ project }) {
                                     )}
                                 </h2>
                             </div>
+                            {project.other && project.other.length > 0 && (
+                                <div className="mt-10 flex items-center">
+                                    <h2 className="font-bold text-xl text-white-500 mr-2 bg-red-500 rounded-md px-2">
+                                        Other
+                                    </h2>
+                                    <h2 className="text-white-500 text-xl text-gray-600 dark:text-gray-400">
+                                        {project.other.map((bullet, index) => (
+                                            <li key={index}>
+                                                {bullet.startsWith("http://") || bullet.startsWith("https://") ? (
+                                                    <a href={bullet} target="_blank" rel="noopener noreferrer" className="text-blue-500">{bullet}</a>
+                                                ) : (
+                                                    bullet
+                                                )}
+                                            </li>
+                                        ))}
+                                    </h2>
+                                </div>
+                            )}
                         </div>
                         <div>
-                            <div className="flex overflow-x-scroll space-x-4 py-2">
+                            {/* <div className="flex overflow-x-scroll space-x-4 py-2">
                                 {project.photos && project.photos.map((photo, index) => (
                                     <img key={index} src={photo} alt={`Project image ${index + 1}`} className="w-60 h-auto" />
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

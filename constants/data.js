@@ -106,32 +106,48 @@ const userData = {
       year: "2023",
       companyLink: "https://appian.com",
       desc: "Developed robust API request mocking product leveraging Kubernetes for enhanced resource efficiency and scalability",
-      detail_desc: ["abcd", "efgh", "ijkl"],
+      detail_desc: [
+        `Developed robust API request mocking product, leveraging Kubernetes for enhanced resource efficiency and scalability`,
+        `Created Kubernetes Custom Resource Definition (CRD) and Python controller tailored to testing requirements`,
+        `Programmed software tool using Python that optimizes file dependency visualization across multiple Git repositories using .toml files, saving nearly $15k yearly`
+      ],
       siteLink: "appian",
       photos: ["/appian1.png", "/appian2.png", "/appian3.png"],
-      tools: ["Python, Kubernetes, Docker, React, Node.js, Express, MongoDB"],
+      tools: ["Python, Kubernetes, Docker, React, GitHub, GitLab, Jenkins, JUnit"],
     },
     {
       title: "Undergraduate Student Researcher",
       company: "Georgia Tech",
       year: "2021-2023",
-      companyLink: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161045",
+      companyLink: "https://arxiv.org/abs/2209.08690",
       desc: "Designed and constructed an autonomous robotic system that captures multiple 2D plant images, transforming them into 3D reconstructions for comprehensive volumetric analysis.",
-      detail_desc: ["abcd", "efgh", "ijkl"],
+      detail_desc: [
+        `Applied filtering CV algorithms coded in Python to accurately position robot arm for optimal position with respect to plant, which reduced manual workload by 50%`,
+        `Employed PyTorch and OpenCV libraries to modify 3D point clouds to convert them to use for volumetric analysis`,
+        `Developed a path-planning algorithm for the movement of the cable robot to accurately position it to every grid in system`,
+        `Built ROS algorithms to enable autonomous control from remote locations using C++ and Python libraries`,
+        `Utilized the Linux environment to process 3D reconstructions using the A100 GPU`
+      ],
       siteLink: "research",
       photos: ["/research1.png", "/research2.png", "/research3.png"],
-      tools: ["Python, OpenCV, Streamlit"],
+      tools: ["Python, Computer Vision, OpenCV, Open3D, Linus, C++, ROS, GitHub, Raspberry PI, Ubuntu, Arduino"],
+      other: ["https://arxiv.org/abs/2209.08690"]
     },
     {
-      title: "Co-Founder",
+      title: "Co-Founder & Developer",
       company: "MealPirates",
       year: "2022-2023",
       companyLink: "https://mealpirates.app/",
       desc: "Developed a service which delivers resturant quality food at resturant prices.",
-      detail_desc: ["abcd", "efgh", "ijkl"],
+      detail_desc: [
+        `Founded a service to deliver restaurant food at prices lower than competitors`,
+        `Led ideation and backend development; utilized Python and Twilio API to integrate mass text messaging to customers`,
+        `Scaled the idea up to 1000 orders with total revenue of over $8000 in 5 months`,
+        `Selected by Georgia Tech CreateX Startup launch program, offered $400K in seed funding to launch the product`
+      ],
       siteLink: "mealpirates",
       photos: ["/mealpirates.png", "/mealpirates.png", "/mealpirates.png"],
-      tools: ["React, Node.js, Express, MongoDB"],
+      tools: ["Leadership, Public Speaking, Customer Discovery, Netowrking, Python, API Development, React, Next.js, Node.js,"],
     },
     {
       title: "Software Developer Intern",
@@ -142,18 +158,21 @@ const userData = {
       detail_desc: ["abcd", "efgh", "ijkl"],
       siteLink: "campustalk",
       photos: ["/campustalk1.png", "/campustalk2.png", "/campustalk3.png"],
-      tools: ["React, Node.js, Express, MongoDB"],
+      tools: ["Customer Discovery, Product Development, Competitor Analysis"],
     },
     {
       title: "Robotics Intern",
       company: "Marut Drones",
       year: "2020",
       companyLink: "https://marutdrones.com/",
-      desc: "Helped build an industrial drone.",
-      detail_desc: ["abcd", "efgh", "ijkl"],
+      desc: "Helped build an agricultural industrial drone.",
+      detail_desc: [
+        `Co-Built an autonomous agricultural drone that sprays pesticides over lakes to kill mosquitos that is more effective than conventional means`,
+        `Used a hexacopter equipped with 10 kV brushless motors powered by two 20,000 mAh LiPo batteries with a flight time of 30 min`
+      ],
       siteLink: "marutdrones",
       photos: ["/marutdrones1.png", "/marutdrones2.png", "/marutdrones3.png"],
-      tools: ["Python, Arduino, Raspberry Pi"],
+      tools: ["Drone development, Python, Arduino, Raspberry Pi"],
     },
   ],
   resumeUrl:
