@@ -5,21 +5,28 @@ function ProjectInfo({ project }) {
     return (
         <ContainerBlock title="Projects - Harsh Muriki">
             <section className="bg-white dark:bg-gray-800 -mb-20">
-                <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-                    <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+                <div className="grid grid-rows-2 max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+                    <h1 className="text-5xl md:text-7xl font-bold py-20 text-center md:text-left">
                         {project.title}
                     </h1>
                 </div>
-                <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
+                <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-16">
                     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
                         <div className="relative overflow-hidden">
                             <div className="h-72 object-cover">
-                                <h3 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-500 rounded-md px-2">
+                                {/* <h3 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-500 rounded-md px-2">
                                     {project.description}
-                                </h3>
+                                </h3> */}
+                                {project.longDescription && project.longDescription.length > 0 && (
+                                    <ul className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-blue-500 rounded-md px-2">
+                                        {project.longDescription.map((bullet, index) => (
+                                            <li key={index} className="mb-2"> • {bullet}</li>
+                                        ))}
+                                    </ul>
+                                )}
                             </div>
                             <div className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl flex-col">
-                                <div className="flex items-center">
+                                <div className="flex items-center mb-2">
                                     <h2 className="text-white-500 mr-2 bg-red-500 rounded-md px-2">
                                         Coding Languages:
                                     </h2>

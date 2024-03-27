@@ -8,6 +8,15 @@ const userData = {
   address: "Atlanta, Georgia, USA.",
   projects: [
     {
+      title: "Stereo-Vision-Finger-Tracker",
+      link: "https://github.com/harshmuriki/Stereo-Vision-Finger-Tracker.git",
+      imgUrl: "/stereovisiontracker.jpeg",
+      tools: ["Python, OpenCV"],
+      description: "A python module to track finger movements using a webcam in the 3D space.",
+      siteLink: "Stereo-Vision-Finger-Tracker",
+      longDescription: ["A python module to track finger movements using a webcam in the 3D space.", ["ewdewd dwedewdwd dwedwedwed"]],
+    },
+    {
       title: "RoboticGuitar",
       link: "",
       imgUrl: "/roboticguitar.jpg",
@@ -96,8 +105,8 @@ const userData = {
       `I have got into this field when I wanted to break open my RC car that was given to me on my birthday just to see what was inside of it. Ever since then, I have been building and breaking (both physical and code) things.`,
       `I have since built projects like an AI chatbot, a GPT-4 based memory game, a GPT-3 based resume generator, a Spotify-Youtube music player, a startup to deliver restaurant quality food at restaurant prices, an AI/CV website to convert images to recipes, a computer vision project to find the center of a phone, and a website to showcase all my projects.`
     ],
-    currentProject: "ResumeGPT",
-    currentProjectUrl: "https://github.com/harshmuriki/resumeGPT",
+    currentProject: "Stereo-Vision-Finger-Tracker",
+    currentProjectUrl: "https://github.com/harshmuriki/Stereo-Vision-Finger-Tracker.git",
   },
   experience: [
     {
