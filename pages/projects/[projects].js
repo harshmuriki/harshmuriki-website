@@ -9,8 +9,8 @@ const ProjectPage = () => {
     if (!projects) {
         return <div>Loading...</div>;
     }
-    // console.log("here0", projects);
     const projectData = userData['projects'].find(project => project.siteLink.toLowerCase() === projects.toLowerCase());
+    
     return (
         <div>
             <ProjectInfo project={projectData} />

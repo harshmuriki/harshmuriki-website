@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import userData from '@constants/data';
+import ExperienceInfo from '@components/ExperienceInfo';
 
 const ExperiencePage = () => {
     const router = useRouter();
@@ -9,10 +10,9 @@ const ExperiencePage = () => {
         return <div>Loading...</div>;
     }
     const experienceData = userData['experience'].find(project => project.siteLink.toLowerCase() === experience.toLowerCase());
-    console.log(experienceData);
     return (
         <div>
-            {experienceData.title}
+            <ExperienceInfo project={experienceData} />
         </div>
     );
 };
