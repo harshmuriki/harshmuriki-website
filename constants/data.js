@@ -185,7 +185,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1jtAltpeey_kKf85OaCortyNs1Qu6VzQp/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1_b_-1BgjPf5m0V7V37Eqt4clDv68yPfl?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/harshmuriki24/",
     twitter: "https://twitter.com/Harshmuriki24",
